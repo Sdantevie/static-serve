@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 const http = require('http');
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 const server = http.createServer(app);
 
