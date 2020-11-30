@@ -9,4 +9,4 @@ app.use(express.static(path.join(__dirname, 'dist')));
 
 const server = http.createServer(app);
 
-server.listen(3002);
+server.listen(3102);
